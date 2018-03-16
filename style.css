@@ -1,0 +1,233 @@
+.entête{
+width: 100%x;
+height: 100px;
+background-color:#F6CEF5  ;
+font-family:sans-serif;
+cursor: pointer;
+
+
+}
+.image{
+width: 100%;
+height: 100px;
+/*background-color: red;*/
+
+
+}
+.coordonnées{
+width: 1000px;
+height: 100px;
+/*background-color: green;*/
+background-color: #F2F2F2;
+cursor: pointer;
+padding-top: 40px;
+}
+.profil{
+width:1000px;
+height: 100px;
+/*background-color: grey;*/
+background-color: #F2F2F2;
+}
+
+.experiencespro{
+  width: 1000px;
+  height: 250px;
+  /*background-color: violet;*/
+padding-top: 40px;
+background-color: #F2F2F2;
+}
+
+.formation{
+
+  width:1000px;
+  height:400px;
+  /*background-color: blue;*/
+  background-color: #F2F2F2;
+  padding-top: 40px;
+
+}
+
+.centredinterets{
+
+  width: 960px;
+  height: 100px;
+/*  background-color: yellow;*/
+  background-color: #F2F2F2;
+  padding-left:40px;
+}
+.experience{
+width: 270px;
+height: 150px;
+/*background-color: orange;*/
+background-color: #F2F2F2;
+float: left;
+margin-left: 40px;
+}
+.Education{
+width: 270px;
+height: 380px;
+/*background-color: green;*/
+background-color: #F2F2F2;
+float: left;
+margin-left: 40px;
+
+}
+.competences{
+width: 270px;
+height: 380px;
+/*background-color: violet;*/
+float: left;
+margin-left: 40px;
+text-align: left;
+}
+.languesetlangages {
+width:270px;
+height:380px;
+/*background-color: red;*/
+float: left;
+margin-left: 40px;
+text-align: left;
+}
+.coordo{
+width: 270px;
+height: 60px;
+/*background-color: pink;*/
+float: left;
+margin-left: 40px;
+text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+.profil ul{
+  margin:0;
+  padding:0;
+  background-color:#F6CEF5;
+  width: 200px;
+  height: 40px;
+
+}
+
+.profil ul li{
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.experiencespro ul {
+margin:0;
+padding:0;
+background-color: #F6CEF5;
+width:400px;
+height: 40px;
+
+}
+.experiencespro ul li{
+
+  display: block;
+  text-align: center;
+  padding:10px;
+}
+.titre ul{
+margin:0;
+padding:0;
+background-color:#F6CEF5 ;
+width: 270px;
+}
+
+.titre ul li{
+
+  display: block;
+  text-align: center;
+  padding:10px;
+}
+.centredinterets ul {
+margin:0;
+padding: 0;
+background-color: #F6CEF5;
+width:400px;
+
+}
+
+.centredinterets ul li {
+display: block;
+  text-align: center;
+  padding:10px;
+}
+.description{
+padding-left:40px;
+padding-right: 40px;
+
+}
+.image{
+background: url("img/imageHeader.png") repeat;
+height: 85px;
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.profil:hover{
+  background-color: #BDBDBD;
+  cursor: pointer;
+
+}
+.experiencespro:hover{
+background-color: #BDBDBD;
+cursor: pointer;
+
+}
+.Education:hover{
+  background-color: #BDBDBD;
+  cursor:pointer;
+}
+.competences:hover{
+  background-color: #BDBDBD;
+  cursor: pointer;
+}
+.languesetlangages:hover{
+background-color: #BDBDBD;
+cursor: pointer;
+
+}
+
+.centredinterets:hover{
+background-color: #BDBDBD;
+cursor: pointer;
+}
+
+.entête{
+border-radius:10px;
+
+}
+.image{
+  border-radius: 10px;
+}
+.entête  {
+  width: 100px;
+  margin-right: 100px;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.image{
+  width: 100%;
+  height: 100px;
+  background: url("img/imageHeader.png") repeat;
+  height: 85px;
+
+}
